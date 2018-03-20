@@ -1,9 +1,3 @@
-%% genClusterWithOutlier.m
-% Gravitational Clustering Algorithm
-% Date: 19/03/2018
-% Copyright (c) Patricia Binder. All rights reserved.
-% For details, see article: https://authors.elsevier.com/a/1WjYAbZX4vgFc
-
 function XA = genClusterWithOutlier(mu,sigma,N,percentage,dim)
 
 X=genCluster(mu.',sigma,N,dim); 

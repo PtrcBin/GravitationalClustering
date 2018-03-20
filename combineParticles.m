@@ -3,7 +3,8 @@
 
 % Copyright (c) 2018 Patricia Binder. All rights reserved.
 
-% For details, see article: https://authors.elsevier.com/a/1WjYAbZX4vgFc
+% For details, see article: 
+% https://www.sciencedirect.com/science/article/pii/S0165168418300902
 
 % This program is free software: you can redistribute it and/or modify
 % it under the terms of the GNU Affero General Public License as published

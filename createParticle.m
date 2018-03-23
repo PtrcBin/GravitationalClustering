@@ -6,5 +6,6 @@ Particle.velo = zeros(size(position));
 Particle.force = zeros(size(position));
 Particle.r_koeff = zeros(size(position)); 
 Particle.dF = Particle.velo;
+Particle.subP=[];
 
 end

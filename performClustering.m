@@ -18,9 +18,14 @@
 % You should have received a copy of the GNU Affero General Public License
 % along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+% INPUT:
+% p: current set of mobile mass units
+% samples: set of data samples which should be clustered
 
+% OUTPUT:
+% p: updated set of mobile mass units
 
-function [p]= performClustering(p, samples)   
+function p= performClustering(p, samples)   
 
 t = 1; % set time step
 

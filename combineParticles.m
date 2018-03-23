@@ -18,8 +18,15 @@
 % You should have received a copy of the GNU Affero General Public License
 % along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+% INPUT:
+% p: current set of mobile mass units
+% epsilon_r: radius within which two mobile mass units are combined
 
-function p= combineParticles(p,epsilon)
+% OUTPUT:
+% p: updated set of mobile mass units
+
+
+function p= combineParticles(p,epsilon_r)
 
  distMat=zeros(length(p));
  particleDeletion = [];
@@ -34,7 +41,7 @@ function p= combineParticles(p,epsilon)
 minVal = min(min(distMat));
 
 
-while(minVal < epsilon) 
+while(minVal < epsilon_r) 
 
 
     idx = find(distMat == minVal); %Position of elements in distance matrix

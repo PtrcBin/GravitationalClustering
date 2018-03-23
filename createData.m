@@ -1,3 +1,5 @@
+% Creates the data set used in Fig. 1 of the manuscript
+
 function s = createData(NI, pout)
 
 sigma1 = [.2 0 ; 0 0.7];
